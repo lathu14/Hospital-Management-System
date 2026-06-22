@@ -24,7 +24,7 @@ namespace Hospital_Management_System
             this.textBox1.Leave += new EventHandler(this.PatientId_Leave);
 
             // Programmatically hook up sidebar navigation
-            NavigationHelper.SetupNavigation(this, this.panel1);
+            NavigationHelper.SetupNavigation(this, this.panel1);this.panel1.BackColor = Color.DarkSlateGray;
         }
 
         // Auto-fill patient name when Patient ID is entered
